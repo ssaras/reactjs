@@ -6,6 +6,7 @@ module.exports = {
     mode: 'development',
     devtool: debug ? "inline-sourcemap" : null,
     entry: "./js/client.js",
+    devtool: 'inline-source-map',
     output: {
         path: __dirname + "/js",
         filename: "client.min.js"
